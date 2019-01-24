@@ -1,0 +1,101 @@
+#bookmarks, #rightbg, #postcards, #header, #menu, #sidebar, #pet_friends, h2{
+display: none;
+}
+#pet_info {
+margin: 175px 700px !important;
+left: 50% !important;
+top: 50% !important;
+width: 800px !important;
+height: 650px !important;
+background: #ECE9D8;
+margin: 0;
+z-index: 10 !important;
+}
+#page, body{
+font-family: sans-serif;
+font-size: 16px !important;
+overflow: hidden !important;
+margin: 0;
+width: auto;
+}
+#content{
+overflow: hidden !important;
+margin: 0;
+padding: 0;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: url('https://i.ibb.co/RBSRFMs/bliss.jpg') no-repeat; width: 100% auto; height:100% auto; background-size:cover;
+z-index: -2 !important;
+}
+.descbox{
+  --box-height: 650px;
+  --box-width: 800px;
+  --box-top: 50%;
+  --box-left: 50%;
+}
+#descback{
+  position: absolute;
+  margin: -380px -245px !important;
+  top: 50%;
+  left: 50%;
+}
+.imgbox{
+  --box-height: 200px;
+  --box-width: 200px;
+  --box-top: 50%;
+  --box-left: 50%;
+}
+#imgback{
+  position: absolute;
+  margin: -380px -253px !important;
+  top: 50%;
+  left: calc(50% - 250px);
+}
+#pet_image{
+  position: absolute;
+  margin: -350px -250px !important;
+  top: 50%;
+  left: calc(50% - 250px);
+}
+.pet_name{
+font-size: 16px !important;
+text-align: left !important;
+  position: absolute;
+  margin: -380px -250px !important;
+  top: 50%;
+  left: calc(50% - 250px);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+}
+.statbox{
+  --box-height: 400px;
+  --box-width: 200px;
+  --box-top: 50%;
+  --box-left: 50%;
+}
+#statback{
+  position: absolute;
+  margin: -132px -253px !important;
+  top: 50%;
+  left: calc(50% - 250px);
+}
+#pet_stats{
+background: #ECE9D8;
+padding: 0;
+ height: 400px !important;
+width: 200px !important;
+  position: absolute;
+  margin: -103px -250px !important;
+  top: 50%;
+  left: calc(50% - 250px);
+}
+#pet_stats li{
+padding: 0;
+ height: 40px !important;
+width: 200px !important;
+}
+a:link, a:active, a:visited, .heart{color: #0855DD;}
+.statbar div.stat{background-color: #0855DD;}
