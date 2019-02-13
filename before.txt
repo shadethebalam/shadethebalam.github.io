@@ -1,0 +1,99 @@
+<style>
+  @import url('https://shadethebalam.github.io/basic.css');
+
+</style>
+<figure id="outfit">
+  <img src='https://sapi.subeta.net/shared/705912.png' alt='missing' />
+  <figcaption></figcaption>
+</figure>
+<div id="minion_desc">
+  Lorem ipsum minion descripsum, consectetur adipiscing elit.<br> Mattis scelerisque suspendisse cum dui integer, aliquet fusce nunc dis.
+</div>
+<style>
+  /*---------------#pet_info----------------*/
+
+  #pet_info {
+    padding: 0;
+    margin: 0;
+    background: #aaa;
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+  }
+
+  /*----------------#pet_image-----------------*/
+
+  #pet_image {
+    position: absolute;
+    margin: 25px;
+    top: 27.5%;
+    margin-top: -150px;
+    height: 300px;
+    width: 300px;
+    background: url(https://78.media.tumblr.com/c8da7ff557b4d04deb61f834c3817730/tumblr_p0n62r66zs1vvigjyo1_400.png) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #pet_image {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: transform 0.5s ease 0s;
+  }
+
+  #pet_image:hover {
+    transform: matrix(1.05, -0.05, 0.05, 1.05, 0, 0);
+  }
+
+  /*----------------#columns-----------------*/
+
+  #column_1 {
+    position: absolute;
+    height: 114px !important;
+    width: 114px !important;
+    background: #555;
+    overflow: hidden;
+    margin-top: -57px;
+    top: calc(62.5% + 5px);
+    left: 45px;
+  }
+
+  #pet_minion {
+    margin-top: -65px;
+  }
+
+  #column_1 h2 {
+    display: none;
+  }
+
+  /*--------------------#extras---------------------*/
+
+  #outfit {
+    margin: 25px;
+    position: absolute;
+    height: 144px;
+    width: 144px;
+    top: calc(50%);
+    left: 175px;
+  }
+
+  #minion_desc {
+    overflow: auto;
+    margin: 25px;
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    top: calc(62.5% + 96px);
+    left: 0px;
+    background: #555;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /*------------------------------------------------*/
+
+</style>

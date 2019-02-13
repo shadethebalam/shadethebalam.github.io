@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0;}
 #header, #postcards, #sidebar, #menu, #rightbg, #bookmarks, #footer, .prototip {display: none;}
-body, #page, #content {background: #fff;overflow:hidden;}
+/*body, #page, #content {background: #fff;overflow:hidden;}*/
 /*---------------------------------------------------*/
 #main-content {
 height: 100%; 
