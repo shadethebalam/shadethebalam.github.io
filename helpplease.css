@@ -1,0 +1,97 @@
+<style type="text/css">
+html, body, #page, #main-content, #content {
+  position: static !important;
+}
+
+body {
+  width: 1250px;
+  height: 750px !important;
+}
+
+h2 {
+  display: none;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#pet_info {
+  margin: 0;
+  width: auto;
+}
+
+#column_2 {
+  position: relative;
+  box-sizing: border-box;
+  padding: 25px;
+  width: 600px;
+  left: 1225px;
+}
+
+#pet_desc {
+  position: relative;
+  box-sizing: border-box;
+  width: 600px;
+  left: 925px;
+  top: -265px;
+}
+
+#pet_treasure {
+  box-sizing: border-box;
+  padding: 25px;
+  width: 600px;
+  left: 925px;
+  position: relative;
+  height: 200px;
+  overflow: auto;
+  top: -265px;
+}
+
+#pet_info {
+  height: auto;
+}
+
+#pet_friends {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+}
+
+#script {
+  position: relative;
+  height: auto;
+  box-sizing: border-box;
+  width: 575px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#column_2 {
+  position: absolute;
+  height: 200px;
+  top: calc(0%);
+  margin: 25px 0 25px -300px;
+}
+
+#pet_image {
+  z-index: 10;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background-size: 100% 100%;
+  left: calc(50% - 400px);
+  margin: 25px 0 25px -200px;
+  top: 350px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+</style>

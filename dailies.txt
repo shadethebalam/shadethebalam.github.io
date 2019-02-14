@@ -1,0 +1,28 @@
+<div id='con'><ul id='list'>
+<li><a href='https://subeta.net/explore/shengui_guo/bathhouse/pools.php?act=dip'><img src='https://img.subeta.net/items/beanbag_bhouseattendant.gif'/></a></li>
+<hr>
+<li><a href='https://subeta.net/explore/shengui_guo/dara.php?act=interact'><img src='https://img.subeta.net/items/minion_seamonk.gif'/></a></li>
+<hr>
+Hustler
+<li><a href='https://subeta.net/explore/hustler.php?act=buy&item=1'><img src='https://img.subeta.net/items/item_wrappedbox_dino_rex.gif'/>5k</a></li>
+<li><a href='https://subeta.net/explore/hustler.php?act=buy&item=2'><img src='https://img.subeta.net/items/item_bananabox.gif'/>10k</a></li>
+<li><a href='https://subeta.net/explore/hustler.php?act=buy&item=3'><img src='https://img.subeta.net/items/gift_swirlpurple.gif'/>20k</a></li>
+<hr>
+<li><a href='
+https://subeta.net/explore/tree.php?act=take'><img src='https://img.subeta.net/items/plushie_cutesyikumoradeekanox.gif'/></a></li>
+<hr>
+<li><a href='
+https://subeta.net/explore/trash_can.php?act=look'><img src='https://img.subeta.net/items/clothing_masq_trashcanraccoon.gif'/></a></li>
+<hr>
+<li><a href='
+https://subeta.net/games/random.php/play'><img src='https://img.subeta.net/items/random_dice.gif'/></a></li>
+</ul></div>
+<style>
+body{
+  background: #505050;
+}
+#list, #list li a{
+  list-style: none;
+    color: #ffffff;
+}
+</style>
