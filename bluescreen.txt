@@ -1,0 +1,117 @@
+<style>
+#bookmarks, #rightbg, #postcards, #header, #menu, #sidebar, #column_1, #column_2, #column_3, #pet_treasure, #pet_friends{
+display: none;
+}
+body, #page, #content{
+background: #0000ff !important;
+height: 800px !important;
+width: 1440px !important;
+}
+body{
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+}
+#content{
+background: url('https://i.ibb.co/rZnj7z8/background2.png') no-repeat; width: 100% auto; height:100% auto; background-size:cover;
+}
+/*-----------------------------*/
+#cont{
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  background: #0000ff;
+}
+#bsod{
+  background: #0000ff;
+  height: 400px;
+  width: 720px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -360px;
+}
+#name{
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  top: calc(0.36*400px);
+  left: calc(0.5*720px);
+  margin-top: -8px;
+  margin-left: -40px;
+  height: 16px;
+  width: 80px;
+  background: #ffffff;
+  color: #0000ff;
+  z-index: 2;
+}
+#text{
+  line-height: 8px;
+  text-align: center;
+  position: absolute;
+  top: calc(0.5*400px);
+  left: calc(0.5*720px);
+  margin-top: -40px;
+  margin-left: -315px;
+  height: 80px;
+  width: 630px;
+  color: #ffffff;
+  z-index: 2;
+}
+#details{
+  line-height: 8px;
+  text-align: left;
+  position: absolute;
+  top: calc(0.6*400px);
+  left: calc(0.5*720px);
+  margin-top: -40px;
+  margin-left: -315px;
+  height: 80px;
+  width: 630px;
+  color: #ffffff;
+  z-index: 2;
+}
+#details .indent{
+  text-indent: 32px;
+}
+#url{
+  text-align: center;
+  position: absolute;
+  top: calc(0.75*400px);
+  left: calc(0.5*720px);
+  margin-left: -160px;
+  height: 16px;
+  width: 320px;
+  z-index: 2;
+  color: #ffffff;
+  line-height: 8px;
+}
+</style>
+<div id= "cont">
+<div id="bsod">
+<div id="name">Subeta</div>
+<div id='text'>
+<p>Whoops! This profile is incomplete.</p>
+</div>
+<div id='details'>
+<p>
+You can either: 
+</p>
+<p class='indent'>
+  * Wait until it's finished.
+  <p class='indent'>
+  * That's all you can do.
+  </p>
+</div>
+<a href="https://subeta.net/" id="url">Click here to go back</a>
+</div>
+</div>
