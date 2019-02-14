@@ -1,0 +1,71 @@
+#pet_image {
+  z-index: 10;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background-size: 100% 100%;
+  left: calc(50% - 400px);
+  margin: 25px 0 25px -200px;
+  top: 300px;
+}
+
+.statbar {
+  width: 100px;
+}
+
+#column_3 li {
+  width: 100px !important;
+  height: 50px !important;
+  position: fixed;
+  left: calc(50% - 50px);
+}
+
+#pet_minion {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  left: calc(50% - 75px);
+  margin: 25px 0 25px -525px;
+  top: 25px;
+}
+
+/*--------------Stats------------------*/
+
+#stat_strength {
+  margin: 25px 0 25px -375px;
+  top: 25px;
+}
+
+#stat_defense {
+  margin: 25px 0 25px -250px;
+  top: 25px;
+}
+
+#stat_level {
+  margin: 25px 0 25px -375px;
+  top: 75px;
+}
+
+#stat_intelligence {
+  margin: 25px 0 25px -250px;
+  top: 75px;
+}
+
+#stat_speed {
+  margin: 25px 0 25px -375px;
+  top: 125px;
+}
+
+#stat_health {
+  margin: 25px 0 25px -250px;
+  top: 125px;
+}
+
+#stat_hp {
+  margin: 25px 0 25px -312px;
+  top: 175px;
+}
+
+/*--------------Stats------------------*/
